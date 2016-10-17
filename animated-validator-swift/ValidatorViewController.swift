@@ -203,6 +203,7 @@ class ValidatorViewController: UIViewController, UITextFieldDelegate {
                 self.submitButtonTopConstraint.isActive = true
                 self.view.layoutIfNeeded()
                 }, completion: nil)
+            submitButton.isEnabled = true
         }
     }
 
